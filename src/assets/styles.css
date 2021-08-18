@@ -10,12 +10,14 @@ body {
 	background-color: #000000;
 	font-family: "Baloo Da 2", cursive;
 }
+
 #root {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	height: 100%;
 }
+
 ::-moz-selection {
 	/* Code for Firefox */
 	color: black;
@@ -31,6 +33,7 @@ body {
 	color: #828ed4;
 	transition: 0.2s all ease-in-out;
 }
+
 .App a:hover {
 	opacity: 0.75;
 }
@@ -42,10 +45,12 @@ body {
 	transition: 0.1s all ease-in-out;
 	animation: app-enter-anim 0.1s ease-out;
 }
+
 .App-text {
 	opacity: 1;
 	transition: 0.1s all ease-in-out;
 }
+
 .App-particles__container {
 	overflow: hidden;
 	position: absolute;
@@ -55,6 +60,7 @@ body {
 	right: 0px;
 	z-index: 0;
 }
+
 .App-particles__container canvas {
 	transition: 0.2s all ease-in-out;
 	z-index: 0;
@@ -69,6 +75,7 @@ body {
 	letter-spacing: 0.5rem;
 	font-family: "Oswald", sans-serif;
 }
+
 .App-text__body {
 	margin: 0px;
 	margin-top: 12px;
@@ -86,6 +93,7 @@ body {
 		transfrom: scale(1);
 	}
 }
+
 @-webkit-keyframes app-enter-anim {
 	from {
 		opacity: 0.8;
