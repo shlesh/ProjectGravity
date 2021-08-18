@@ -21,12 +21,12 @@ body {
 ::-moz-selection {
 	/* Code for Firefox */
 	color: black;
-	background: purple;
+	background: white;
 }
 
 ::selection {
 	color: black;
-	background: purple;
+	background: white;
 }
 
 .App a {
