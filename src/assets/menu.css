@@ -98,7 +98,7 @@
   flex-direction: column;
   justify-content: center;
   transform-origin: center;
-  transition: 0.1s all ease-in-out;
+  /* transition: 0.1s all ease-in-out; */
   background-color: rgba(0, 0, 0, 0.15);
   transform: scale(3);
   opacity: 0;
