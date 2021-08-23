@@ -18,7 +18,7 @@ function About() {
 					Gotta do what needs to be done😉
 				</div>
 				<div className="about-social">
-					<div className="about-social__title">You cant find us XD</div>
+					<div className="about-social__title">You cant find us :)</div>
 					<div className="about-social__links">
 						<a
 							className="about-social__link"
