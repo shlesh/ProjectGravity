@@ -7,6 +7,7 @@ import NotFound from "./screens/NotFound";
 import About from "./screens/About";
 import Entrepreneurship from "./screens/Entrepreneurship";
 import Members from "./screens/Members";
+import Projects from "./screens/Projects";
 
 import "./assets/styles.css";
 
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/entrepreneurship" component={Entrepreneurship} />
         <Route exact path="/members" component={Members} />
+        <Route exact path="/projects" component={Projects} />
         <Route component={NotFound} />
       </Switch>
     </Router>

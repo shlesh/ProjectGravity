@@ -39,7 +39,7 @@ function Menu() {
             <div className="menu-item__background" />
             <div className="menu-item__subtitle">Our Team</div>
           </Link>
-          <Link to="/work" className="menu-item">
+          <Link to="/projects" className="menu-item">
             <div className="menu-item__title">Projects</div>
             <div className="menu-item__background" />
             <div className="menu-item__subtitle">Some of our projects</div>
