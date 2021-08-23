@@ -1,11 +1,11 @@
 import React from "react";
 
 function Members(props) {
-  return (
-    <div>
-      <p>heyyy members here</p>
-    </div>
-  );
+	return (
+		<div className="App">
+			<div>heyyy members here</div>
+		</div>
+	);
 }
 
 export default Members;
