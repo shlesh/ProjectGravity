@@ -133,7 +133,7 @@
   width: 0px;
   margin-top: -60px;
   margin-bottom: 20px;
-  margin-left: calc(50% - 100px);
+  margin-left: calc(50% - 110px);
   transition: 0.15s all ease-in-out;
   background-image: linear-gradient(
     to right,
@@ -141,9 +141,15 @@
     rgb(238, 224, 251, 0.7)
   );
 }
+.menu-item:last-of-type > .menu-item__background {
+  margin-left: calc(50% - 190px);
+}
 @media screen and (min-width: 600px) {
   .menu-item:hover > .menu-item__background {
-    width: 200px;
+    width: 220px;
+  }
+  .menu-item:last-of-type:hover > .menu-item__background {
+    width: 380px;
   }
 }
 
